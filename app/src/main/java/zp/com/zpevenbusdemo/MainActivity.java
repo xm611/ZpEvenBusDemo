@@ -12,7 +12,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-
+    
+    //跳转
     public void open(View view){
         Intent intent = new Intent(MainActivity.this, ZpEvenbusActivity.class);
         startActivity(intent);
